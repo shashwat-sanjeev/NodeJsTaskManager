@@ -4,7 +4,9 @@
   "description": "project1_Airtribe",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm install && node src/app.js",
+    "start": "node src/app.js"
   },
   "author": "Shashwat Sanjeev",
   "license": "ISC",
