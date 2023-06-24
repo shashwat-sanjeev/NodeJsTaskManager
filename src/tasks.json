@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "task1",
+      "description": "This is the 1st task where task1 is to be done",
+      "status": "completed",
+      "created_at": 1687622111284
+    },
+    {
+      "id": 2,
+      "title": "task2",
+      "description": "This is the 2nd task where task2 is to be done",
+      "status": "pending",
+      "created_at": 1687622127742
+    },
+    {
+      "id": 3,
+      "title": "task3",
+      "description": "This is the 3rd task where task3 is to be done",
+      "status": "completed",
+      "created_at": 1687622141614
+    },
+    {
+      "id": 4,
+      "title": "task4",
+      "description": "This is the 4th task where task4 is to be done",
+      "status": "pending",
+      "created_at": 1687622853387
+    }
+  ]
+}
