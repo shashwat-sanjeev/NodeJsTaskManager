@@ -4,13 +4,13 @@ Endpoints to perform basic CRUD operations on json file as in-memory datastore
 
 ## API Reference
 
-#### Get all items
+#### Get list of all tasks
 
 ```http
   GET /tasks
 ```
 
-#### Get list of all tasks
+#### Get task by Id
 
 ```http
   GET /tasks/${id}
@@ -43,6 +43,16 @@ Endpoints to perform basic CRUD operations on json file as in-memory datastore
 | `title`        | `string`                                            | **Required**. Updated Title       |
 | `description`  | `string`                                            | **Required**. Updated Description |
 | `status`       | `string in ['pending', 'in-progress', 'completed']` | **Required**. Updated Status      |
+
+#### Delete task by Id
+
+```http
+  DELETE /tasks/${id}
+```
+
+| Parameter | Type      | Description                        |
+| :-------- | :-------- | :--------------------------------- |
+| `id`      | `integer` | **Required**. Id of task to delete |
 
 ## Deployment
 
